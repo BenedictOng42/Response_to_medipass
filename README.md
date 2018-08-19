@@ -6,9 +6,10 @@ Note: there is nowhere near full test coverage and a lot of tests which react bo
 ## Steps: 
 
 ## To run the app:
-yarn start
-npm run start
+- yarn start, or
+- npm run start
 
 ## To test the app:
-yarn test:watch
-npm run test:watch
+
+- yarn test:watch, or
+- npm run test:watch
