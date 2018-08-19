@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> render <Home/> should render <Home/> properly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "justifyContent": "center",
+    }
+  }
+>
+  Pie Of The Day Finder
+  <div>
+    <WithStyles(SimpleTable)
+      error={false}
+      headers={
+        Array [
+          "nameOfPie",
+          "price",
+          "quantity",
+          "storeName",
+          "address",
+          "rating",
+          "contactNumber",
+        ]
+      }
+      items={Array []}
+      loading={false}
+      onPageChange={[Function]}
+      page={1}
+      totalCount={0}
+    />
+  </div>
+</div>
+`;
