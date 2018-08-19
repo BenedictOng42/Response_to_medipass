@@ -21,8 +21,9 @@ function* updatePages({ page, rowPerPage }) {
         rating: store.rating,
         contactNumber: store.mobile,
         nameOfPie: pieOfDay ? pieOfDay.displayName : 'n/a',
-        price: pieOfDay ? pieOfDay.price : 'n/a',
-        quantity: pieOfDay ? pieOfDay.quantity : 'n/a',
+        priceAsInt: pieOfDay ? pieOfDay.price : 0,
+        price: pieOfDay ? pieOfDay.priceString : '0',
+        quantity: pieOfDay ? pieOfDay.quantity : '0',
       };
     });
     yield put(

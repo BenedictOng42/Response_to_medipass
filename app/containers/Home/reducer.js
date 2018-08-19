@@ -14,7 +14,6 @@ import {
 const initialState = fromJS({
   currentPage: fromJS([]),
   totalCount: fromJS(0),
-  sorting: fromJS(''),
   error: false,
   loading: false,
 });

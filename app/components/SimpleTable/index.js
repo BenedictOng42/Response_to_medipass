@@ -53,7 +53,7 @@ class SimpleTable extends React.PureComponent {
     const { items, headers } = this.props;
     let tableCells = items;
     if (this.state.sorting === 'piePrice') {
-      tableCells = tableCells.sort((a, b) => a.price > b.price);
+      tableCells = tableCells.sort((a, b) => a.priceAsInt > b.priceAsInt);
     }
     if (this.state.sorting === 'nameOfPie') {
       tableCells = tableCells.sort((a, b) => a.nameOfPie > b.nameOfPie);
